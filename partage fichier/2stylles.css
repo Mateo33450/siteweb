@@ -1,0 +1,83 @@
+@import url(https://prod.liveshare.vsengsaas.visualstudio.com/join?802573BCA36F53E25B6D9BA6E92F2122405F);
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #536976, #292E49);
+    font-family: 'Roboto', sans-serif;
+}
+
+svg{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin: 9px;
+    
+}
+
+form{
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 40px 60px;
+    border-radius: 10px;
+    min-width: 300px;
+}
+
+form h1{
+    color: #eb7371;
+    text-align: center;
+}
+
+form .social-media{
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+form .social-media p{
+    padding: 5px;
+    margin-left:10px;
+    border: 1px solid gray;
+}
+
+form p.choose-email{
+    text-align: center; 
+
+}
+
+form .input{
+    display: flex;
+    flex-direction: column;
+}
+
+form .input input[type="email"], input[type=password]{
+    padding: 15px;
+    border-radius:5px ;
+    border: none;
+    background-color: #f2f2f2;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+form p.inscription{
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form p.inscription span{
+    color: #eb7371;
+}
+
+form button{
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #eb7371;
+    outline: none;
+    cursor: pointer;
+}

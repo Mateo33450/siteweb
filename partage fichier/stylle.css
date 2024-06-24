@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    font-size: 1em;
+    background: linear-gradient(90deg, #F7971E, #FFD200);
+    object-fit: contain;
+  }
+
+   /* titre */
+  h1 {
+    font-size: 3.5em;
+    color: #a5b4fc;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 50px;
+    text-align: center;
+  }
+  
+  /* sous titre */
+  h2 {
+    color: #f9f8ff;
+  }
+
+  /* paragraphe */
+  p,
+li {
+  font-size: 1.1em;
+  color: #f9f8ff;
+}
+
+
+header,
+footer {
+  background: linear-gradient(90deg, #726868, #0b0b0e);
+  padding: 20px 50px;
+}
+
+/* un projet ecrivez moi */
+.cta {
+    background: linear-gradient(#8e86b5, #3f44d4);
+    color: white;
+    border-radius: 70px;
+    padding: 20px 30px;
+    margin-top: 70px;
+  }
+
+  /* text */
+  .test{
+    margin-bottom: 50px;
+    margin-right: 100px;
+  }
+
+  /* un projet ecrivez moi */
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .cta:hover {
+    background: linear-gradient(90deg, #403099, #8788ba);
+    text-decoration: none;
+  }
+  
+  /* decale icone de twitter et insta */
+  .lien-icone {
+    margin-left: 30px;
+  }
+  
+  /* opacité */
+  .lien-icone:hover {
+    opacity: 0.5;
+  }
+  
+  /* image 3*3 */
+  .carre-contenu h2 {
+    margin-top: 30px;
+  }
+  
+  /* decalé de 30px */
+  .carre-contenu ul {
+    margin-top: 30px;
+  }
+  
+  /* separation */
+  section {
+    padding: 80px;
+  }
+
+  .accueil-photos {
+    background-color: rgb(235, 216, 231);
+
+  }
+  
+  .accueil-photos h2 {
+    color: #131212;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  
+  .accueil-photos div {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .accueil-introduction {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+    margin: auto;
+  }
+  
+
+footer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+  
+}
+.box {
+    border: #0b0b0e 2px solid;
+    height: 200px;
+    width: 25%;
+}
+
+header img{
+    height: 50px;
+    width: 20%;
+}
+
+.conteneur img {
+  width: 210px;
+  height: 150px;
+}
+
+ .insta, .supercell, .twitter{
+  width: 32px;
+  height: 32px;
+ }
+
